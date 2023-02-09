@@ -1,0 +1,32 @@
+body{
+    background: #0c5460;
+}
+
+.main
+{
+
+    height: 395px;
+    width: 307px;
+    position: relative;
+    top: 150px;
+    left: 35%;
+     border: 1px solid brown;
+}
+.imge {
+    position: relative;
+    height: 395px;
+    width: 307px;
+    top: 0;
+    left: 0;
+    opacity: 100;
+
+}
+.top-img
+{
+    width: 141px;
+    height: 48px;
+    position: absolute;
+    top: 9em;
+    left: 82px;
+
+}

@@ -1,0 +1,44 @@
+ </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Email</label>
+                                            <input type="text" class="form-control" id="p_email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Gender</label>
+                                            <select class="select" id="p_gender">
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <h4 class="card-title">Postal Address</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Doctors</label>
+                                            <select class="select" id="p_doctor">
+                                                <option value="Dr-Asif">Dr-Asif</option>
+                                                <option value="Dr-Sadaf">Dr-Sadaf</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Appointment Date</label>
+                                            <input type="date" class="form-control" id="p_adate">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>City</label>
+                                            <input type="text" class="form-control" id="p_city">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Appointment Time</label>
+                                            <input type="time" class="form-control" id="p_atime">
+                                        </div>
+
+                                    </div>
+                                </div>

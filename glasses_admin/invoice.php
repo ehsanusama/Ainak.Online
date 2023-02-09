@@ -1,0 +1,126 @@
+<?php  include ("login/function.php");
+
+if(isset($_SESSION['em']  )){
+
+    ?>
+
+
+
+    <?php  include ("function/glasses_creation.php");?>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <!-- Mirrored from dreamguys.co.in/demo/doccure/admin/form-vertical.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Nov 2019 04:12:55 GMT -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <title>Cart</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!-- Feathericon CSS -->
+        <link rel="stylesheet" href="assets/css/feathericon.min.css">
+
+        <!-- Select2 CSS -->
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <script src="assets/js/swl.js"></script>
+
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+    <?php  include ("section/header.php");?>
+    <!-- header end -->
+
+    <!-- Sidebar -->
+    <?php  include ("section/sidebar.php");?>
+    <!-- Page Wrapper -->
+    <div class="page-wrapper" >
+
+        <div class="content container-fluid">
+
+            <!-- Invoice Container -->
+            <?php
+            include ("function/cart_display.php");
+            displayinovice();
+
+
+            ?>
+            <!-- /Invoice Container -->
+
+        </div>
+    </div>
+    <!-- /Page Wrapper -->
+    <!-- /Page Wrapper -->
+    <!-- /Main Wrapper -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap Core JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Slimscroll JS -->
+    <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Select2 JS -->
+    <script src="assets/js/select2.min.js"></script>
+
+    <!-- Custom JS -->
+    <script  src="assets/js/script.js"></script>
+    <script src="includes/custom_js_functions/display_appointment.js" type="text/javascript"></script>
+
+    <!-- Custom JS book appointment  -->
+
+    <!-- Custom JS book appointment  -->
+
+    <!-- Custom JS show appointment  -->
+
+
+
+
+
+    <!-- Custom JS show appointment  -->
+
+
+
+
+
+
+
+
+    </div>
+    </body>
+
+    <!-- Mirrored from dreamguys.co.in/demo/doccure/admin/form-vertical.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Nov 2019 04:12:55 GMT -->
+    </html>
+<?php }
+else{
+    echo "please login first";
+    ?>
+    <script>
+        setTimeout(function(){ window.location.href="login/login.php"; });
+    </script>
+    <?php
+}
+
+
+
+?>

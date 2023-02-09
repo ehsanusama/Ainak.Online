@@ -1,0 +1,30 @@
+<section class="section section-md bg-primary-lightest">
+        <div class="container">
+          <div class="row row-40 justify-content-center text-center">
+            <div class="col-md-8 col-lg-6">
+              <h2>Make an appointment with an ophthalmologist</h2>
+              <div class="text-block text-block-2 d-md-flex align-items-center justify-content-center">
+                <p>Have questions?</p>
+                <div class="list list-icons-2">
+                  <div class="list-item">
+                    <div class="list-icon icon onclinic-phone"></div><span class="h4"><a class="link" href="tel:#">(123) 456-7890</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-group-1"><a class="btn btn-lg btn-dark" href="book-an-appointment.html"><span class="btn-icon onclinic-book"></span><span>Book an Appointment</span></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    font-family: "Gothic A1", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.29;
+    color: #1e676e;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    background-color: #e0fdf5;
+    padding: 121px 0;
